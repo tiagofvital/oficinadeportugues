@@ -1,0 +1,494 @@
+﻿@model  OficinaDePortugues.Web.Models.CourseModel
+
+@{
+    Layout = "~/Views/Shared/_PagesLayout.cshtml";
+}
+
+<!--_________________________ Start Content _________________________ -->
+<div class="middle_content entry" role="main">
+    <h2 class="entry-title cmsmasters_course_title">@Model.Name</h2><figure class="cmsmasters_img_wrap"><a href="../../wp-content/uploads/2015/08/Depositphotos_46326837_original.jpg" title="Intensive Course" rel="ilightbox[1_5b28326c5816b]" class="cmsmasters_img_link preloader"><img width="860" height="500" src="../../wp-content/uploads/2015/08/Depositphotos_46326837_original-860x500.jpg" class="full-width wp-post-image" alt="@Model.Name" title="@Model.Name" /></a></figure>
+
+    <div id="lp-single-course" class="lp-single-course">
+
+        <div id="learn-press-course" class="course-summary">
+
+            <div class="course-landing-summary">
+
+                <div class="course-meta">
+                    @*<span class="course-students" title="&lt;span class=&quot;course-students-number&quot;&gt;10&lt;/span&gt; students enrolled">
+                            10 students
+                        </span>*@
+                </div>
+
+                <div id="learn-press-course-tabs" class="course-tabs">
+                    <ul class="learn-press-nav-tabs course-nav-tabs">
+
+                        @{
+                            var fullUrl = Context.Request.Url.ToString();
+                        }
+
+                        <li class="course-nav course-nav-tab-overview active default">
+                            <a href="@string.Concat(fullUrl,"&tab=tab-overview")" data-tab="#tab-overview">Overview</a>
+                        </li>
+
+                        <li class="course-nav course-nav-tab-curriculum">
+                            <a href="@string.Concat(fullUrl,"&tab=tab-curriculum")" data-tab="#tab-curriculum">Curriculum</a>
+                        </li>
+
+                        <li class="course-nav course-nav-tab-instructor">
+                            <a href="@string.Concat(fullUrl,"&tab=tab-instructor")" data-tab="#tab-instructor">Instructor</a>
+                        </li>
+                    </ul>
+
+                    <div class="course-tab-panel-overview course-tab-panel active"
+                         id="tab-overview">
+
+                        <div class="course-description" id="learn-press-course-description">
+                            <style type="text/css">
+
+                                #cmsmasters_row_5b28326c5b691 .cmsmasters_row_outer_parent {
+                                    padding-top: 0px;
+                                }
+
+                                #cmsmasters_row_5b28326c5b691 .cmsmasters_row_outer_parent {
+                                    padding-bottom: 30px;
+                                }
+
+                                #cmsmasters_row_5b28326c5b7b7 .cmsmasters_row_outer_parent {
+                                    padding-top: 0px;
+                                }
+
+                                #cmsmasters_row_5b28326c5b7b7 .cmsmasters_row_outer_parent {
+                                    padding-bottom: 0px;
+                                }
+
+                                #cmsmasters_heading_5b28326c5b830 {
+                                    text-align: left;
+                                    margin-top: 0px;
+                                    margin-bottom: 30px;
+                                }
+
+                                    #cmsmasters_heading_5b28326c5b830 .cmsmasters_heading {
+                                        text-align: left;
+                                    }
+
+                                        #cmsmasters_heading_5b28326c5b830 .cmsmasters_heading, #cmsmasters_heading_5b28326c5b830 .cmsmasters_heading a {
+                                            font-weight: 300;
+                                            font-style: normal;
+                                        }
+
+                                    #cmsmasters_heading_5b28326c5b830 .cmsmasters_heading_divider {
+                                    }
+
+                                .cmsmasters_profile #post-381.profile .pl_subtitle {
+                                    color: #17a5d4;
+                                }
+
+                                .cmsmasters_profile #post-381.profile:before {
+                                    background-color: #17a5d4;
+                                }
+
+                                .cmsmasters_profile #post-377.profile .pl_subtitle {
+                                    color: #8bc660;
+                                }
+
+                                .cmsmasters_profile #post-377.profile:before {
+                                    background-color: #8bc660;
+                                }
+                            </style><div id="cmsmasters_row_5b28326c5b691" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                <div class="cmsmasters_row_outer_parent">
+                                    <div class="cmsmasters_row_outer">
+                                        <div class="cmsmasters_row_inner">
+                                            <div class="cmsmasters_row_margin">
+                                                <div class="cmsmasters_column one_first">
+                                                    <div class="cmsmasters_text">
+                                                        <div class="cmsmasters_text">
+                                                            @Model.Description
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cmsmasters_row_5b28326c5b7b7" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                <div class="cmsmasters_row_outer_parent">
+                                    <div class="cmsmasters_row_outer">
+                                        <div class="cmsmasters_row_inner">
+                                            <div class="cmsmasters_row_margin">
+                                                <div class="cmsmasters_column one_first">
+                                                    <div id="cmsmasters_heading_5b28326c5b830" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                                                        <h2 class="cmsmasters_heading">Instructors:</h2>
+                                                    </div><div id="5b28326c5b897" class="cmsmasters_profile vertical">
+                                                        <!--_________________________ Start Vertical Profile _________________________ -->
+                                                        <article id="post-381" class="post-381 profile type-profile status-publish has-post-thumbnail hentry pl-categs-staff-2 pl-categs-teachers">
+                                                            <div class="pl_img">
+                                                                <figure>
+                                                                    <a href="../../lang_profile/kimberly-richiez/index.html"><img width="300" height="300" src="https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6" class="attachment-cmsmasters-square-thumb size-cmsmasters-square-thumb wp-post-image" alt="Kimberly Richiez" title="Kimberly Richiez" srcset="https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6 300w, https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6 150w, https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6 600w, https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6 60w, https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                                                </figure>
+                                                            </div>
+                                                            <div class="pl_content">
+                                                                <h6 class="pl_subtitle">Portuguese</h6>
+                                                                <h2 class="entry-title">
+                                                                    <a href="../../lang_profile/kimberly-richiez/index.html">Ângela Lopes</a>
+                                                                </h2>
+                                                                <div class="pl_social">
+                                                                    @*<ul class="pl_social_list">
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-linkedin" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-facebook" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-google" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-twitter" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-skype" title=""></a>
+                                                                            </li>
+                                                                        </ul>*@
+                                                                </div>
+                                                            </div>
+                                                            <div class="entry-content">
+                                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                                                            </div>
+                                                            <div class="cl"></div>
+                                                        </article>
+                                                        <!--_________________________ Finish Vertical Profile _________________________ -->
+                                                        <!--_________________________ Start Vertical Profile _________________________ -->
+                                                        <article id="post-377" class="post-377 profile type-profile status-publish has-post-thumbnail hentry pl-categs-staff-3 pl-categs-teachers">
+                                                            <div class="pl_img">
+                                                                <figure>
+                                                                    <a href="../../lang_profile/dylan-taylor/index.html"><img width="300" height="300" src="../../wp-content/uploads/2015/07/photodune-8386876-employee-at-work-s1-300x300.jpg" class="attachment-cmsmasters-square-thumb size-cmsmasters-square-thumb wp-post-image" alt="Dylan Taylor" title="Dylan Taylor" srcset="http://language-school.cmsmasters.net/wp-content/uploads/2015/07/photodune-8386876-employee-at-work-s1-300x300.jpg 300w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/photodune-8386876-employee-at-work-s1-150x150.jpg 150w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/photodune-8386876-employee-at-work-s1.jpg 600w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/photodune-8386876-employee-at-work-s1-60x60.jpg 60w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/photodune-8386876-employee-at-work-s1-580x580.jpg 580w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                                                </figure>
+                                                            </div>
+                                                            <div class="pl_content">
+                                                                <h6 class="pl_subtitle">English and Spanish</h6>
+                                                                <h2 class="entry-title">
+                                                                    <a href="../../lang_profile/dylan-taylor/index.html">Dylan Taylor</a>
+                                                                </h2>
+                                                                <div class="pl_social">
+                                                                    @*<ul class="pl_social_list">
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-linkedin" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-facebook" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-google" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-twitter" title=""></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="cmsmasters-icon-skype" title=""></a>
+                                                                            </li>
+                                                                        </ul>*@
+                                                                </div>
+                                                            </div>
+                                                            <div class="entry-content">
+                                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                                                            </div>
+                                                            <div class="cl"></div>
+                                                        </article>
+                                                        <!--_________________________ Finish Vertical Profile _________________________ -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-tab-panel-curriculum course-tab-panel"
+                         id="tab-curriculum">
+
+                        <div class="course-curriculum" id="learn-press-course-curriculum">
+                            <div class="curriculum-scrollable">
+
+                                <ul class="curriculum-sections">
+
+                                    <li class="section" id="section-module-1-70" data-id="module-1-70" data-section-id="70">
+
+                                        <div class="section-header">
+                                            <div class="section-left">
+                                                <h5 class="section-title">Module 1:</h5>
+                                            </div>
+                                        </div>
+
+                                        <ul class="section-content">
+
+                                            <li class="course-item course-item-lp_lesson course-item-6238 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Meeting people</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6239 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Getting acquainted</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6240 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Household chores</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6241 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Communication at work</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6242 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Describing appearance</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_quiz course-item-6243 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Final Quiz</span>
+                                                    <div class="course-item-meta">
+                                                        <span class="item-meta count-questions">0 question</span>	        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="section" id="section-module-2-71" data-id="module-2-71" data-section-id="71">
+
+                                        <div class="section-header">
+                                            <div class="section-left">
+                                                <h5 class="section-title">Module 2:</h5>
+                                            </div>
+                                        </div>
+
+                                        <ul class="section-content">
+
+                                            <li class="course-item course-item-lp_lesson course-item-6244 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">A visit to the doctor</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6245 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Preferences in food and clothes</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6246 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Education</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6247 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Means of transport</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6248 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Social life</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_quiz course-item-6249 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Final Quiz</span>
+                                                    <div class="course-item-meta">
+                                                        <span class="item-meta count-questions">0 question</span>	        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="section" id="section-module-3-72" data-id="module-3-72" data-section-id="72">
+
+                                        <div class="section-header">
+                                            <div class="section-left">
+                                                <h5 class="section-title">Module 3:</h5>
+                                            </div>
+                                        </div>
+
+                                        <ul class="section-content">
+
+                                            <li class="course-item course-item-lp_lesson course-item-6250 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Sports</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6251 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Leisure time</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6252 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Wild life</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6253 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Holidays</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_lesson course-item-6254 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Environmental protection</span>
+                                                    <div class="course-item-meta">
+                                                        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="course-item course-item-lp_quiz course-item-6255 item-locked">
+                                                <div class="section-item-link">
+
+                                                    <span class="item-name">Final Quiz</span>
+                                                    <div class="course-item-meta">
+                                                        <span class="item-meta count-questions">0 question</span>	        <i class="fa item-meta course-item-status trans"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-tab-panel-instructor course-tab-panel"
+                         id="tab-instructor">
+
+                        <div class="course-author">
+                            <h3>Instructor</h3>
+
+                            <p class="author-name">
+                                <img alt='' src='https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/14681736_1310370908996194_5104792848111422721_n.jpg?_nc_cat=0&oh=4fbcf5f0d0ba993fba39039d859e640a&oe=5BD499C6' srcset='http://0.gravatar.com/avatar/cec22fb290043e2c1b9972d9bc2f0cfb?s=192&#038;d=mm&#038;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' />		<a href="../../profile/cmsmasters/index.html">Steven Master</a>
+                            </p>
+                            <div class="author-bio">
+                                Cmsmasters Studio is a union of 11 people who are completely into innovative website design and progressive website development. Yes, we believe we can make the world be more beautiful. And as we specialize on WordPress themes and HTML templates we try to do our job the best way it can be done. Welcome to our website.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-price">
+
+                    <span class="price">@Model.Price</span>
+                </div>
+
+                <div class="lp-course-buttons">
+
+                    <!--                    <form name="purchase-course" class="purchase-course" method="post" enctype="multipart/form-data">
+
+                    <input type="hidden" name="purchase-course" value="6237" />
+                    <input type="hidden" name="purchase-course-nonce"
+                           value="f3e4eb0d82" />-->
+                    <a class="lp-button button button-purchase-course" href="@Url.Action("Index","OnlineApplication", new { permalink = Model.Permalink})">
+                        Apply for this course
+                    </a>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+    </div><div class="cl"></div>
+    @*<div id="respond" class="comment-respond">
+            <h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" class="js-action" href="index.html#respond" style="display:none;">Cancel Reply</a></small></h3>
+        <form action="http://language-school.cmsmasters.net/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+                <p class="comment-notes">Your email address will not be published.</p>
+                <p class="comment-form-comment"><label for="comment">Message</label><textarea name="comment" id="comment" cols="67" rows="2"></textarea></p><p class="comment-form-author">
+                    <label for="author">Your name <span class="cmsmasters_req">*</span></label>
+                    <input type="text" id="author" name="author" value="" size="35" />
+                </p>
+                <p class="comment-form-email">
+                    <label for="email">Email <span class="cmsmasters_req">*</span></label>
+                    <input type="text" id="email" name="email" value="" size="35" />
+                </p>
+                <p class="comment-form-cookies-consent">
+                    <input type="checkbox" id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" value="yes" />
+                    <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label>
+                </p>
+                <p class="form-submit">
+                    <input name="submit" type="submit" id="submit" class="submit" value="Add Comment" /> <input type='hidden' name='comment_post_ID' value='6237' id='comment_post_ID' />
+                    <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f33ace39db" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="148" /></p>
+            </form>
+        </div><!-- #respond -->*@
+</div>
+<!-- _________________________ Finish Content _________________________ -->

@@ -1,0 +1,6 @@
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Dtos\bin\Debug\OficinaDePortugues.Dtos.dll
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Dtos\bin\Debug\OficinaDePortugues.Dtos.pdb
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Dtos\obj\Debug\OficinaDePortugues.Dtos.csprojAssemblyReference.cache
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Dtos\obj\Debug\OficinaDePortugues.Dtos.csproj.CoreCompileInputs.cache
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Dtos\obj\Debug\OficinaDePortugues.Dtos.dll
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Dtos\obj\Debug\OficinaDePortugues.Dtos.pdb

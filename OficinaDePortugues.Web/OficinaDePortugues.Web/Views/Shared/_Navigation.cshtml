@@ -1,0 +1,77 @@
+﻿@helper  DisplayParentCssClassFor(string parentName)
+{
+    var currentParentCssClass = "current-menu-ancestor current-menu-parent";
+
+    var currentParentName = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
+
+    if (currentParentName == parentName)
+    {
+        @Html.Raw(currentParentCssClass);
+    }
+}
+
+@helper  DisplayChildCssClassFor(string parentName, string childName)
+{
+    var currentCssClass = "current-menu-item current_page_item";
+
+    var routeValues = HttpContext.Current.Request.RequestContext.RouteData.Values;
+
+    if (routeValues["controller"].ToString() == parentName && routeValues["action"].ToString() == childName)
+    {
+        @Html.Raw(currentCssClass)
+    }
+}
+
+<div class="resp_mid_nav_wrap"><div class="resp_mid_nav_outer"><a class="responsive_nav resp_mid_nav" href="javascript:void(0);"></a></div></div><!-- _________________________ Start Navigation _________________________ --><div class="mid_nav_wrap">
+    <nav role="navigation">
+        <div class="menu-main-container">
+            <ul id="navigation" class="mid_nav navigation">
+                <li id="menu-item-4458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-1280 menu-item-4458 menu-item-depth-0 @DisplayParentCssClassFor("Home")"><a href='@Url.Action("Index","Home")'><span class="nav_item_wrap"><span class="nav_title">Home</span></span></a></li>
+                <li id="menu-item-4386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4386 menu-item-mega menu-item-mega-cols-four menu-item-depth-0  @DisplayParentCssClassFor("Courses")">
+                    <a href='@Url.Action("Index","Courses")'><span class="nav_item_wrap"><span class="nav_title">Courses and Pricing</span></span></a>
+                    <div class="menu-item-mega-container">
+                        <ul class="sub-menu">
+                            <li id="menu-item-4388" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4388 menu-item-depth-1">
+                                <a href="#"><span class="nav_item_wrap"><span class="nav_title">Group</span></span></a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4426 menu-item-depth-subitem"><a href="buttons-shortcode/index.html"><span class="nav_item_wrap"><span class="nav_title">Standard 20</span></span></a>		</li>
+                                    <li id="menu-item-4427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4427 menu-item-depth-subitem"><a href="contact-forms/index.html"><span class="nav_item_wrap"><span class="nav_title">Standard 30</span></span></a>		</li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-4387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4387 menu-item-depth-1">
+                                <a href="#"><span class="nav_item_wrap"><span class="nav_title">Group + Private</span></span></a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4433 menu-item-depth-subitem @DisplayChildCssClassFor("OnlineApplication", "Index")"><a href="image/index.html"><span class="nav_item_wrap"><span class="nav_title">Intensive +5</span></span></a>		</li>
+                                    <li id="menu-item-4432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4432 menu-item-depth-subitem"><a href="google-maps/index.html"><span class="nav_item_wrap"><span class="nav_title">Intensive +10</span></span></a>		</li>
+                                    <li id="menu-item-4431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4431 menu-item-depth-subitem"><a href="gallery/index.html"><span class="nav_item_wrap"><span class="nav_title">Intensive +15</span></span></a>		</li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-4389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4389 menu-item-depth-1">
+                                <a href="#"><span class="nav_item_wrap"><span class="nav_title">Regular</span></span></a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4434 menu-item-depth-subitem"><a href="tables/index.html"><span class="nav_item_wrap"><span class="nav_title">Extensive</span></span></a>		</li>
+                                    <li id="menu-item-4435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4435 menu-item-depth-subitem"><a href="special-headings/index.html"><span class="nav_item_wrap"><span class="nav_title">Part Time</span></span></a>		</li>
+                                    <li id="menu-item-4436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4436 menu-item-depth-subitem"><a href="social-sharing/index.html"><span class="nav_item_wrap"><span class="nav_title">Online (Skype)</span></span></a>		</li>
+                                    <li id="menu-item-4447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4447 menu-item-depth-subitem"><a href="sidebar/index.html"><span class="nav_item_wrap"><span class="nav_title">Private Lessons</span></span></a>		</li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-4391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4390 menu-item-depth-1 @DisplayChildCssClassFor("Courses", "Pricing")">
+                                <a href="@Url.Action("Pricing","Courses")"><span class="nav_item_wrap"><span class="nav_title">Pricing</span></span></a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4447 menu-item-depth-subitem"><a href="http://www.learningportugueseinportugal.com/assets/pdf/learning-portuguese-in-portugal-price-list.pdf?18062018" target="_blank"><span class="nav_item_wrap"><span class="nav_title">Price List</span></span></a>		</li>
+                                    <li id="menu-item-4449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4447 menu-item-depth-subitem"><a href="@Url.Action("Promotions", "Courses")"><span class="nav_item_wrap"><span class="nav_title">Promotions</span></span></a>		</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="menu-item-5475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5475 menu-item-depth-0  @DisplayParentCssClassFor("Accommodation")"><a href='@Url.Action("Index","Testimonials")'><span class="nav_item_wrap"><span class="nav_title">Testimonials</span></span></a></li>
+                <li id="menu-item-4392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4391 menu-item-depth-0  @DisplayParentCssClassFor("OnlineApplication")">
+                    <a href='@Url.Action("Index", "OnlineApplication")'><span class="nav_item_wrap"><span class="nav_title">Online Application</span></span></a>
+                </li>
+
+                <li id="menu-item-4473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4473 menu-item-depth-0  @DisplayParentCssClassFor("Contacts")"><a href="@Url.Action("Index", "Contacts")"><span class="nav_item_wrap"><span class="nav_title">Contacts</span></span></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>

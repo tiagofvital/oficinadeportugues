@@ -1,0 +1,75 @@
+.question-fill-in-blank .question-passage,
+.question-type-fill_in_blank .question-passage {
+  margin-bottom: 20px;
+}
+
+.question-fill-in-blank .blank,
+.question-type-fill_in_blank .blank {
+  display: inline-block;
+  
+}
+.question-fill-in-blank .blank textarea,
+.question-type-fill_in_blank .blank textarea {
+  width: 100%;
+  min-height: 200px;
+}
+.question-fill-in-blank .blank .question-passage,
+.question-type-fill_in_blank .blank .question-passage {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.question-fill-in-blank .blank input,
+.question-type-fill_in_blank .blank input {
+  width: auto;
+}
+.question-fill-in-blank input[type="text"].blank ,
+.question-type-fill_in_blank input[type="text"].blank  {
+  display: inline-block;
+  color: #007acc;
+  border: none;
+  border-bottom: 1px dashed #DDD;
+  width: 150px;
+  background: transparent;
+  text-align: center;
+  padding: 0;
+  box-shadow: none;
+}
+.question-fill-in-blank input[type="text"][disabled].blank ,
+.question-type-fill_in_blank input[type="text"][disabled].blank  {
+  opacity: 1;
+}
+.question-fill-in-blank .blank.blank-fill,
+.question-type-fill_in_blank .blank.blank-fill {
+  color: #007acc;
+  display: inline-block;
+  min-width: 20px;
+  border-bottom: 1px dashed #DDD;
+  font-weight: bold;
+  line-height: 1;
+}
+.question-fill-in-blank .blank.blank-status,
+.question-type-fill_in_blank .blank.blank-status {
+  color: #007acc;
+}
+.question-fill-in-blank .blank.correct.blank-status,
+.question-type-fill_in_blank .blank.correct.blank-status {
+  display: none;
+}
+.question-fill-in-blank .blank.wrong.blank-fill,
+.question-type-fill_in_blank .blank.wrong.blank-fill {
+  color: #FF0000;
+  text-decoration: line-through;
+}
+.question-fill-in-blank .blank.checked.check-label,
+.question-type-fill_in_blank .blank.checked.check-label {
+  font-style: italic;
+}
+.question-fill-in-blank .blank.checked.wrong,
+.question-type-fill_in_blank .blank.checked.wrong {
+  color: #FF0000;
+  text-decoration: line-through;
+}
+.question-fill-in-blank .blank.checked.correct,
+.question-type-fill_in_blank .blank.checked.correct {
+  color: #1e73be;
+}

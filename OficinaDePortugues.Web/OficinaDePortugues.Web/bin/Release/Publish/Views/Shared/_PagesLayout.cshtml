@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Middle{
+    <div id="middle">
+        <div class="headline cmsmasters_color_scheme_first">
+            <div class="headline_outer">
+                <div class="headline_color"></div>
+            </div>
+        </div>
+        <div class="middle_inner">
+            <div class="content_wrap fullwidth">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts{
+
+    @RenderSection("scripts", required: false)
+}

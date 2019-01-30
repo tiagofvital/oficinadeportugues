@@ -1,0 +1,90 @@
+﻿.header_top {
+    height: 38px;
+}
+
+.header_mid {
+    height: 100px;
+}
+
+.header_bot {
+    height: 50px;
+}
+
+#page.cmsmasters_heading_after_header #middle,
+#page.cmsmasters_heading_under_header #middle .headline .headline_outer {
+    padding-top: 100px;
+}
+
+#page.cmsmasters_heading_after_header.enable_header_top #middle,
+#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer {
+    padding-top: 138px;
+}
+
+#page.cmsmasters_heading_after_header.enable_header_bottom #middle,
+#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer {
+    padding-top: 150px;
+}
+
+#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle,
+#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+    padding-top: 188px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .header_top,
+    .header_mid,
+    .header_bot {
+        height: auto;
+    }
+
+        .header_mid .slogan_wrap,
+        .header_mid .social_wrap,
+        .header_mid .logo_wrap {
+            height: 100px;
+        }
+
+    #page.cmsmasters_heading_after_header #middle,
+    #page.cmsmasters_heading_under_header #middle .headline .headline_outer,
+    #page.cmsmasters_heading_after_header.enable_header_top #middle,
+    #page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer,
+    #page.cmsmasters_heading_after_header.enable_header_bottom #middle,
+    #page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer,
+    #page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle,
+    #page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+        padding-top: 0 !important;
+    }
+}
+
+.countdown_align .widget.tribe-events-countdown-widget,
+.countdown_align .tribe-countdown-text {
+    text-align: center;
+}
+
+    .countdown_align .widget.tribe-events-countdown-widget .tribe-countdown-time {
+        display: inline-block;
+    }
+
+body {
+    background-color: #f0f0f0;
+}
+
+.header_mid .header_mid_inner .logo_wrap {
+    width: 355px;
+}
+
+.header_mid_inner .logo .logo_retina {
+    width: 231px;
+    max-width: 231px;
+}
+
+.headline_color {
+    background-color: #01a2a6;
+}
+
+@media (min-width: 768px) {
+    .headline_aligner,
+    .cmsmasters_breadcrumbs_aligner {
+        min-height: 80px;
+    }
+}

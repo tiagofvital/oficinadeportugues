@@ -1,0 +1,565 @@
+﻿@model OficinaDePortugues.Web.Models.OnlineApplicationModel
+
+<div class="middle_content entry" role="main"></div>
+<style type="text/css">
+
+    #cmsmasters_row_5b2831b3054b6 .cmsmasters_row_outer_parent {
+        padding-top: 80px;
+    }
+
+    #cmsmasters_row_5b2831b3054b6 .cmsmasters_row_outer_parent {
+        padding-bottom: 60px;
+    }
+
+    #cmsmasters_heading_5b2831b3055ae {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+        #cmsmasters_heading_5b2831b3055ae .cmsmasters_heading {
+            text-align: center;
+        }
+
+            #cmsmasters_heading_5b2831b3055ae .cmsmasters_heading, #cmsmasters_heading_5b2831b3055ae .cmsmasters_heading a {
+                font-size: 26px;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+        #cmsmasters_heading_5b2831b3055ae .cmsmasters_heading_divider {
+        }
+
+    #cmsmasters_row_5b2831b30560d .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+
+    #cmsmasters_row_5b2831b30560d .cmsmasters_row_outer_parent {
+        padding-bottom: 70px;
+    }
+
+    #cmsmasters_icon_list_items_5b2831b3056e3 {
+        counter-reset: counter_5b2831b3056e3;
+    }
+
+        #cmsmasters_icon_list_items_5b2831b3056e3 .cmsmasters_icon_list_item {
+            counter-increment: counter_5b2831b3056e3;
+        }
+
+            #cmsmasters_icon_list_items_5b2831b3056e3 .cmsmasters_icon_list_item .cmsmasters_icon_list_icon:before {
+                content: counter(counter_5b2831b3056e3, decimal);
+            }
+
+        #cmsmasters_icon_list_items_5b2831b3056e3.cmsmasters_icon_list_items .cmsmasters_icon_list_item:before {
+            left: 34.5px;
+            top: 70px;
+        }
+
+        #cmsmasters_icon_list_items_5b2831b3056e3.cmsmasters_icon_list_type_block .cmsmasters_icon_list_item:before {
+            width: 1px;
+        }
+
+        #cmsmasters_icon_list_items_5b2831b3056e3 .cmsmasters_icon_list_icon {
+            width: 70px;
+            height: 70px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+            #cmsmasters_icon_list_items_5b2831b3056e3 .cmsmasters_icon_list_icon:before {
+                font-size: 30px;
+                line-height: 70px;
+            }
+
+            #cmsmasters_icon_list_items_5b2831b3056e3 .cmsmasters_icon_list_icon:after {
+                border-width: 1px;
+                width: 72px;
+                height: 72px;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+            }
+
+    .cmsmasters_icon_list_items.cmsmasters_color_type_icon #cmsmasters_icon_list_item_5b2831b305748:hover .cmsmasters_icon_list_icon:before {
+        color: inherit;
+    }
+
+    .cmsmasters_icon_list_items.cmsmasters_color_type_icon #cmsmasters_icon_list_item_5b2831b3057a5:hover .cmsmasters_icon_list_icon:before {
+        color: inherit;
+    }
+
+    .cmsmasters_icon_list_items.cmsmasters_color_type_icon #cmsmasters_icon_list_item_5b2831b3057fa:hover .cmsmasters_icon_list_icon:before {
+        color: inherit;
+    }
+
+    #cmsmasters_row_5b2831b3064bb .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+
+    #cmsmasters_row_5b2831b3064bb .cmsmasters_row_outer_parent {
+        padding-bottom: 0px;
+    }
+
+    #cmsmasters_row_5b2831b3064bb .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+        padding-left: 0%;
+    }
+
+    #cmsmasters_row_5b2831b3064bb .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+        padding-right: 0%;
+    }
+
+    #cmsmasters_divider_5b2831b3065b4 {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #cmsmasters_row_5b2831b306607 {
+        background-color: #fbfbfb;
+    }
+
+        #cmsmasters_row_5b2831b306607 .cmsmasters_row_outer_parent {
+            padding-top: 60px;
+        }
+
+        #cmsmasters_row_5b2831b306607 .cmsmasters_row_outer_parent {
+            padding-bottom: 60px;
+        }
+
+    #cmsmasters_icon_box_5b2831b306703 {
+        border-width: 0px;
+        color: #ffffff;
+        background-color: #fe5969;
+    }
+
+        #cmsmasters_icon_box_5b2831b306703:before,
+        #cmsmasters_icon_box_5b2831b306703 .icon_box_heading:before {
+            font-size: 25px;
+            line-height: 56px;
+            width: 60px;
+            height: 60px;
+            border-width: 2px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            color: #ffffff;
+            background-color: #fe5969;
+            border-color: #ffffff;
+        }
+
+        #cmsmasters_icon_box_5b2831b306703.cmsmasters_icon_heading_left,
+        #cmsmasters_icon_box_5b2831b306703.cmsmasters_icon_top,
+        #cmsmasters_icon_box_5b2831b306703.cmsmasters_icon_box_left_top {
+            padding: 30px 20px;
+        }
+
+            #cmsmasters_icon_box_5b2831b306703.cmsmasters_icon_top:before {
+                top: 30px;
+            }
+
+        #cmsmasters_icon_box_5b2831b306703 a:not(.cmsmasters_button),
+        #cmsmasters_icon_box_5b2831b306703 a:not(.cmsmasters_button):hover,
+        #cmsmasters_icon_box_5b2831b306703 h1,
+        #cmsmasters_icon_box_5b2831b306703 h2,
+        #cmsmasters_icon_box_5b2831b306703 h3,
+        #cmsmasters_icon_box_5b2831b306703 h4,
+        #cmsmasters_icon_box_5b2831b306703 h5,
+        #cmsmasters_icon_box_5b2831b306703 h6 {
+            color: #ffffff;
+        }
+
+        #cmsmasters_icon_box_5b2831b306703 a:not(.cmsmasters_button) {
+            text-decoration: underline;
+        }
+
+            #cmsmasters_icon_box_5b2831b306703 a:not(.cmsmasters_button):hover {
+                text-decoration: none;
+            }
+
+    #cmsmasters_icon_box_5b2831b3067b9 {
+        border-width: 0px;
+        color: #ffffff;
+        background-color: #17a5d4;
+    }
+
+        #cmsmasters_icon_box_5b2831b3067b9:before,
+        #cmsmasters_icon_box_5b2831b3067b9 .icon_box_heading:before {
+            font-size: 25px;
+            line-height: 56px;
+            width: 60px;
+            height: 60px;
+            border-width: 2px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            color: #ffffff;
+            background-color: #17a5d4;
+            border-color: #ffffff;
+        }
+
+        #cmsmasters_icon_box_5b2831b3067b9.cmsmasters_icon_heading_left,
+        #cmsmasters_icon_box_5b2831b3067b9.cmsmasters_icon_top,
+        #cmsmasters_icon_box_5b2831b3067b9.cmsmasters_icon_box_left_top {
+            padding: 30px 20px;
+        }
+
+            #cmsmasters_icon_box_5b2831b3067b9.cmsmasters_icon_top:before {
+                top: 30px;
+            }
+
+        #cmsmasters_icon_box_5b2831b3067b9 a:not(.cmsmasters_button),
+        #cmsmasters_icon_box_5b2831b3067b9 a:not(.cmsmasters_button):hover,
+        #cmsmasters_icon_box_5b2831b3067b9 h1,
+        #cmsmasters_icon_box_5b2831b3067b9 h2,
+        #cmsmasters_icon_box_5b2831b3067b9 h3,
+        #cmsmasters_icon_box_5b2831b3067b9 h4,
+        #cmsmasters_icon_box_5b2831b3067b9 h5,
+        #cmsmasters_icon_box_5b2831b3067b9 h6 {
+            color: #ffffff;
+        }
+
+        #cmsmasters_icon_box_5b2831b3067b9 a:not(.cmsmasters_button) {
+            text-decoration: underline;
+        }
+
+            #cmsmasters_icon_box_5b2831b3067b9 a:not(.cmsmasters_button):hover {
+                text-decoration: none;
+            }
+
+    #cmsmasters_icon_box_5b2831b306865 {
+        border-width: 0px;
+        color: #ffffff;
+        background-color: #f6c25d;
+    }
+
+        #cmsmasters_icon_box_5b2831b306865:before,
+        #cmsmasters_icon_box_5b2831b306865 .icon_box_heading:before {
+            font-size: 25px;
+            line-height: 56px;
+            width: 60px;
+            height: 60px;
+            border-width: 2px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            color: #ffffff;
+            background-color: #f6c25d;
+            border-color: #ffffff;
+        }
+
+        #cmsmasters_icon_box_5b2831b306865.cmsmasters_icon_heading_left,
+        #cmsmasters_icon_box_5b2831b306865.cmsmasters_icon_top,
+        #cmsmasters_icon_box_5b2831b306865.cmsmasters_icon_box_left_top {
+            padding: 30px 20px;
+        }
+
+            #cmsmasters_icon_box_5b2831b306865.cmsmasters_icon_top:before {
+                top: 30px;
+            }
+
+        #cmsmasters_icon_box_5b2831b306865 a:not(.cmsmasters_button),
+        #cmsmasters_icon_box_5b2831b306865 a:not(.cmsmasters_button):hover,
+        #cmsmasters_icon_box_5b2831b306865 h1,
+        #cmsmasters_icon_box_5b2831b306865 h2,
+        #cmsmasters_icon_box_5b2831b306865 h3,
+        #cmsmasters_icon_box_5b2831b306865 h4,
+        #cmsmasters_icon_box_5b2831b306865 h5,
+        #cmsmasters_icon_box_5b2831b306865 h6 {
+            color: #ffffff;
+        }
+
+        #cmsmasters_icon_box_5b2831b306865 a:not(.cmsmasters_button) {
+            text-decoration: underline;
+        }
+
+            #cmsmasters_icon_box_5b2831b306865 a:not(.cmsmasters_button):hover {
+                text-decoration: none;
+            }
+
+    #cmsmasters_row_5b2831b3068ce .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+
+    #cmsmasters_row_5b2831b3068ce .cmsmasters_row_outer_parent {
+        padding-bottom: 0px;
+    }
+
+    #cmsmasters_row_5b2831b3068ce .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+        padding-left: 0%;
+    }
+
+    #cmsmasters_row_5b2831b3068ce .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+        padding-right: 0%;
+    }
+
+    #cmsmasters_divider_5b2831b306954 {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #cmsmasters_row_5b2831b3069a1 .cmsmasters_row_outer_parent {
+        padding-top: 70px;
+    }
+
+    #cmsmasters_row_5b2831b3069a1 .cmsmasters_row_outer_parent {
+        padding-bottom: 70px;
+    }
+
+    #cmsmasters_heading_5b2831b306a24 {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+        #cmsmasters_heading_5b2831b306a24 .cmsmasters_heading {
+            text-align: center;
+        }
+
+            #cmsmasters_heading_5b2831b306a24 .cmsmasters_heading, #cmsmasters_heading_5b2831b306a24 .cmsmasters_heading a {
+                font-weight: 300;
+                font-style: normal;
+            }
+
+        #cmsmasters_heading_5b2831b306a24 .cmsmasters_heading_divider {
+        }
+
+    #cmsmasters_row_5b2831b306a75 .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+
+    #cmsmasters_row_5b2831b306a75 .cmsmasters_row_outer_parent {
+        padding-bottom: 70px;
+    }
+</style>
+<div id="cmsmasters_row_5b2831b3054b6" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_first">
+                        <div id="cmsmasters_heading_5b2831b3055ae" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                            <h2 class="cmsmasters_heading">Why Choose Language School?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b2831b30560d" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_half">
+
+                        <ul id="cmsmasters_icon_list_items_5b2831b3056e3" class="cmsmasters_icon_list_items cmsmasters_icon_list_type_block cmsmasters_icon_list_pos_left cmsmasters_color_type_icon cmsmasters_icon_list_icon_type_number">
+                            <li id="cmsmasters_icon_list_item_5b2831b305748" class="cmsmasters_icon_list_item">
+                                <div class="cmsmasters_icon_list_item_inner">
+                                    <div class="cmsmasters_icon_list_icon_wrap">
+                                        <span class="cmsmasters_icon_list_icon "></span>
+                                    </div>
+                                    <div class="cmsmasters_icon_list_item_content">
+                                        <h3 class="cmsmasters_icon_list_item_title">A Wealth Of Experience And Reputation </h3>
+                                        <div class="cmsmasters_icon_list_item_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla diam nunc, a porta massa commodo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="cmsmasters_icon_list_item_5b2831b3057a5" class="cmsmasters_icon_list_item">
+                                <div class="cmsmasters_icon_list_item_inner">
+                                    <div class="cmsmasters_icon_list_icon_wrap">
+                                        <span class="cmsmasters_icon_list_icon "></span>
+                                    </div>
+                                    <div class="cmsmasters_icon_list_item_content">
+                                        <h3 class="cmsmasters_icon_list_item_title">Affordable Cost</h3>
+                                        <div class="cmsmasters_icon_list_item_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla diam nunc, a porta massa commodo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="cmsmasters_icon_list_item_5b2831b3057fa" class="cmsmasters_icon_list_item">
+                                <div class="cmsmasters_icon_list_item_inner">
+                                    <div class="cmsmasters_icon_list_icon_wrap">
+                                        <span class="cmsmasters_icon_list_icon "></span>
+                                    </div>
+                                    <div class="cmsmasters_icon_list_item_content">
+                                        <h3 class="cmsmasters_icon_list_item_title">Certification And Memberships</h3>
+                                        <div class="cmsmasters_icon_list_item_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla diam nunc, a porta massa commodo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cmsmasters_column one_half">
+                        <div class="cmsmasters_content_slider_wrap" style="max-width:px;">
+                            <script type="text/javascript">jQuery(document).ready(function () { jQuery("#cmsmasters_slider_5b2831b3058d7.cmsmasters_content_slider").owlCarousel({ singleItem: true, transitionStyle: false, rewindNav: false, rewindSpeed: 1000, slideSpeed: 600, autoHeight: true, paginationSpeed: 600, autoPlay: 7000, pagination: false, navigationText: ["<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>"] }); });</script>
+                            <div id="cmsmasters_slider_5b2831b3058d7" class="cmsmasters_content_slider cmsmasters_owl_slider owl-carousel">
+                                <div class="cmsmasters_content_slider_item"><img width="1160" height="800" src="../wp-content/uploads/2015/07/Depositphotos_72152287_original.jpg" class="attachment-full size-full" alt="" srcset="http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original.jpg 1160w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original-300x207.jpg 300w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original-768x530.jpg 768w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original-1024x706.jpg 1024w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original-600x414.jpg 600w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original-580x400.jpg 580w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_72152287_original-860x593.jpg 860w" sizes="(max-width: 1160px) 100vw, 1160px" /></div><div class="cmsmasters_content_slider_item"><img width="1160" height="800" src="../wp-content/uploads/2015/07/Depositphotos_85241414_original.jpg" class="attachment-full size-full" alt="" srcset="http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original.jpg 1160w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original-300x207.jpg 300w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original-768x530.jpg 768w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original-1024x706.jpg 1024w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original-600x414.jpg 600w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original-580x400.jpg 580w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241414_original-860x593.jpg 860w" sizes="(max-width: 1160px) 100vw, 1160px" /></div><div class="cmsmasters_content_slider_item"><img width="1160" height="800" src="../wp-content/uploads/2015/07/Depositphotos_85241044_original1.jpg" class="attachment-full size-full" alt="" srcset="http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1.jpg 1160w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1-300x207.jpg 300w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1-768x530.jpg 768w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1-1024x706.jpg 1024w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1-600x414.jpg 600w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1-580x400.jpg 580w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_85241044_original1-860x593.jpg 860w" sizes="(max-width: 1160px) 100vw, 1160px" /></div><div class="cmsmasters_content_slider_item"><img width="1160" height="800" src="../wp-content/uploads/2015/07/Depositphotos_58581899_original2.jpg" class="attachment-full size-full" alt="" srcset="http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2.jpg 1160w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2-300x207.jpg 300w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2-768x530.jpg 768w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2-1024x706.jpg 1024w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2-600x414.jpg 600w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2-580x400.jpg 580w, http://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_58581899_original2-860x593.jpg 860w" sizes="(max-width: 1160px) 100vw, 1160px" /></div><div class="cmsmasters_content_slider_item"><img width="1160" height="800" src="../wp-content/uploads/2015/08/Depositphotos_46326837_original.jpg" class="attachment-full size-full" alt="" srcset="http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original.jpg 1160w, http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original-300x207.jpg 300w, http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original-768x530.jpg 768w, http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original-1024x706.jpg 1024w, http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original-600x414.jpg 600w, http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original-580x400.jpg 580w, http://language-school.cmsmasters.net/wp-content/uploads/2015/08/Depositphotos_46326837_original-860x593.jpg 860w" sizes="(max-width: 1160px) 100vw, 1160px" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b2831b3064bb" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_first">
+                        <div id="cmsmasters_divider_5b2831b3065b4" class="cmsmasters_divider cmsmasters_divider_width_long cmsmasters_divider_pos_center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b2831b306607" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_third">
+                        <div id="cmsmasters_icon_box_5b2831b306703" class="cmsmasters_icon_box cmsmasters_icon_heading_left box_icon_type_icon">
+                            <div class="icon_box_inner">
+                                <h3 class="icon_box_heading cmsmasters-icon-graduation-cap">Programs</h3>
+                                <div class="icon_box_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla diam nunc, a porta massa commodo a. Maecenas tincidunt lacinia ex vel rutrum tincidunt lacinia ex vel rutrum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cmsmasters_column one_third">
+                        <div id="cmsmasters_icon_box_5b2831b3067b9" class="cmsmasters_icon_box cmsmasters_icon_heading_left box_icon_type_icon">
+                            <div class="icon_box_inner">
+                                <h3 class="icon_box_heading cmsmasters-icon-users-1">Consultancy</h3>
+                                <div class="icon_box_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla diam nunc, a porta massa commodo a. Maecenas tincidunt lacinia ex vel rutrum tincidunt lacinia ex vel rutrum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cmsmasters_column one_third">
+                        <div id="cmsmasters_icon_box_5b2831b306865" class="cmsmasters_icon_box cmsmasters_icon_heading_left box_icon_type_icon">
+                            <div class="icon_box_inner">
+                                <h3 class="icon_box_heading cmsmasters-icon-briefcase">Trainings</h3>
+                                <div class="icon_box_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla diam nunc, a porta massa commodo a. Maecenas tincidunt lacinia ex vel rutrum tincidunt lacinia ex vel rutrum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b2831b3068ce" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_first">
+                        <div id="cmsmasters_divider_5b2831b306954" class="cmsmasters_divider cmsmasters_divider_width_long cmsmasters_divider_pos_center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b2831b3069a1" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_first">
+                        <div id="cmsmasters_heading_5b2831b306a24" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                            <h2 class="cmsmasters_heading">Make an Registration</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b2831b306a75" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_first">
+                        <div class="cmsmasters_contact_form">
+                            <div role="form" class="wpcf7" id="wpcf7-f2991-p4001-o1" lang="en-US" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <form id="online-application-form" action="~/OnlineApplication/Register" method="post" class="wpcf7-form" novalidate="novalidate">
+                                    <div class="cmsmasters_row_margin cmsmasters_1212">
+                                        <div class="cmsmasters_column one_half">
+                                            <p>
+                                                Your Name (required)<br />
+                                                <span class="wpcf7-form-control-wrap your-name">
+                                                    @*<input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text " aria-required="true" aria-invalid="false" />*@
+                                                    @Html.TextBoxFor(m => m.Name, new { size = "40", @class = "wpcf7-form-control wpcf7-text wpcf7-validates-as-required", aria_required = "true", aria_invalid = "false" })
+                                                </span>
+                                            </p>
+                                            <p>
+                                                Course (required)<br />
+                                                <span class="wpcf7-form-control-wrap menu-372">
+                                                    @Html.DropDownListFor(m => m.SelectedCourse, Model.Courses, new { @class = "wpcf7-form-control wpcf7-select", aria_invalid = "false" })
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="cmsmasters_column one_half">
+                                            <p>
+                                                Your Email (required)<br />
+                                                <span class="wpcf7-form-control-wrap  comment-form-email">
+                                                    @Html.TextBoxFor(m => m.Email, new { type = "email", size = "40", @class = "wpcf7-form-control wpcf7-text wpcf7-validates-as-required", aria_required = "true", aria_invalid = "false" })
+                                                </span>
+                                            </p>
+                                            <p>
+                                                Your Phone Number<br />
+                                                <span class="wpcf7-form-control-wrap YourPhoneNumber"><input type="tel" name="YourPhoneNumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="cmsmasters_row_margin cmsmasters_131313">
+                                        <div class="cmsmasters_column one_half">
+                                            <p>
+                                                Select Date<br />
+                                                <span class="wpcf7-form-control-wrap date-0">
+                                                    @Html.EditorFor(m => m.StartDate, new { htmlAttributes = new { type = "date", @class = "wpcf7-form-control", aria_invalid = "false" } })
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="cmsmasters_column one_half">
+                                            <p>
+                                                End Date<br />
+                                                <span class="wpcf7-form-control-wrap date-0">
+                                                    @Html.EditorFor(m => m.EndDate, new { htmlAttributes = new { type = "date", @class = "wpcf7-form-control", aria_invalid = "false" } })
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <input type="submit" value="Sign up" class="wpcf7-form-control wpcf7-submit" />
+                                        <span id="ajax-loader"></span>
+                                    </p>
+                                    <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cl"></div><div class="content_wrap fullwidth">
+    <div class="middle_content entry" role="main"></div>
+
+    <script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts972f.js?ver=5.0.1'></script>

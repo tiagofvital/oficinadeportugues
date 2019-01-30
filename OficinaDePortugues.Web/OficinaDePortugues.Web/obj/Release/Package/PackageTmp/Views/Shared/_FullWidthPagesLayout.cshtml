@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Middle{
+    <div id="middle">
+        <div class="headline cmsmasters_color_scheme_first">
+            <div class="headline_outer">
+                <div class="headline_color"></div><div class="headline_inner align_left">
+                    <div class="headline_aligner"></div><div class="headline_text"><h1 class="entry-title">@Model.Title</h1></div><div class="cmsmasters_breadcrumbs">
+                        <div class="cmsmasters_breadcrumbs_aligner"></div><div class="cmsmasters_breadcrumbs_inner">
+                            <a href='@Url.Action("Index", "Home")' class="cms_home">Home</a>
+                            <span class="breadcrumbs_sep"> / </span>
+                            <span>@Html.Raw(Model.Title)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle_inner">
+            <div class="content_wrap fullwidth">
+            </div>
+
+            @RenderBody()
+        </div>
+    </div>
+}
+
+@section scripts{
+
+    @RenderSection("scripts", required: false)
+}

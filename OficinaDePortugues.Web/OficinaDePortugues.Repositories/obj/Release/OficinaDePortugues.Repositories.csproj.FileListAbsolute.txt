@@ -1,0 +1,9 @@
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\bin\Release\OficinaDePortugues.Repositories.dll
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\bin\Release\OficinaDePortugues.Repositories.pdb
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\bin\Release\OficinaDePortugues.Dtos.dll
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\bin\Release\OficinaDePortugues.Dtos.pdb
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\obj\Release\OficinaDePortugues.Repositories.csprojAssemblyReference.cache
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\obj\Release\OficinaDePortugues.Repositories.csproj.CoreCompileInputs.cache
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\obj\Release\OficinaDePortugues.Repositories.csproj.CopyComplete
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\obj\Release\OficinaDePortugues.Repositories.dll
+D:\Projectos\OficinaDePortugues_MVC\OficinaDePortugues.Web\OficinaDePortugues.Repositories\obj\Release\OficinaDePortugues.Repositories.pdb

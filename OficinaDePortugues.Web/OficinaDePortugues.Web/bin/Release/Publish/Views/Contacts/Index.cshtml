@@ -1,0 +1,297 @@
+﻿@model OficinaDePortugues.Web.Models.ContactsModel
+
+<div class="content_wrap fullwidth">
+    <div class="middle_content entry" role="main"></div>
+</div>
+<style type="text/css">
+
+    #cmsmasters_row_5b28326912a1d .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+
+    #cmsmasters_row_5b28326912a1d .cmsmasters_row_outer_parent {
+        padding-bottom: 0px;
+    }
+
+    #cmsmasters_row_5b28326912a1d .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+        padding-left: 0%;
+    }
+
+    #cmsmasters_row_5b28326912a1d .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+        padding-right: 0%;
+    }
+
+    #google_map_5b28326912b7d {
+        height: 400px;
+    }
+
+    #cmsmasters_row_5b28326912bd8 .cmsmasters_row_outer_parent {
+        padding-top: 70px;
+    }
+
+    #cmsmasters_row_5b28326912bd8 .cmsmasters_row_outer_parent {
+        padding-bottom: 50px;
+    }
+
+    #cmsmasters_heading_5b283269132f5 {
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+        #cmsmasters_heading_5b283269132f5 .cmsmasters_heading {
+            text-align: left;
+        }
+
+            #cmsmasters_heading_5b283269132f5 .cmsmasters_heading, #cmsmasters_heading_5b283269132f5 .cmsmasters_heading a {
+                font-weight: 300;
+                font-style: normal;
+            }
+
+        #cmsmasters_heading_5b283269132f5 .cmsmasters_heading_divider {
+        }
+
+    #cmsmasters_heading_5b2832691335e {
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+        #cmsmasters_heading_5b2832691335e .cmsmasters_heading {
+            text-align: left;
+        }
+
+            #cmsmasters_heading_5b2832691335e .cmsmasters_heading, #cmsmasters_heading_5b2832691335e .cmsmasters_heading a {
+                font-weight: 300;
+                font-style: normal;
+            }
+
+        #cmsmasters_heading_5b2832691335e .cmsmasters_heading_divider {
+        }
+
+    #cmsmasters_icon_list_items_5b283269133a8 {
+        padding-left: 40px;
+    }
+
+        #cmsmasters_icon_list_items_5b283269133a8 .cmsmasters_icon_list_item:before {
+            font-size: 20px;
+            left: -40px;
+        }
+
+        #cmsmasters_icon_list_items_5b283269133a8 .cmsmasters_icon_list_item {
+            line-height: 35px;
+            padding: 0;
+        }
+
+            #cmsmasters_icon_list_items_5b283269133a8 .cmsmasters_icon_list_item:before {
+                line-height: 35px;
+                top: 0;
+            }
+
+    .cmsmasters_icon_list_items #cmsmasters_icon_list_item_5b28326913440:before {
+        color: #01a2a6;
+    }
+
+    .cmsmasters_icon_list_items #cmsmasters_icon_list_item_5b28326913486:before {
+        color: #01a2a6;
+    }
+
+    .cmsmasters_icon_list_items #cmsmasters_icon_list_item_5b283269134ca:before {
+        color: #01a2a6;
+    }
+
+    #cmsmasters_heading_5b28326913513 {
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+        #cmsmasters_heading_5b28326913513 .cmsmasters_heading {
+            text-align: left;
+        }
+
+            #cmsmasters_heading_5b28326913513 .cmsmasters_heading, #cmsmasters_heading_5b28326913513 .cmsmasters_heading a {
+                font-weight: 300;
+                font-style: normal;
+            }
+
+        #cmsmasters_heading_5b28326913513 .cmsmasters_heading_divider {
+        }
+</style>
+<div id="cmsmasters_row_5b28326912a1d" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column one_first">
+                        <script type="text/javascript">jQuery(document).ready(function () { jQuery("#google_map_5b28326912b7d").gMap({ address: "Rua de Fernandes Tomás 557, 4000-008 Porto", maptype: "ROADMAP", zoom: 18, doubleClickZoom: true, controls: { panControl: true, zoomControl: true, mapTypeControl: true, scaleControl: true, streetViewControl: true, overviewMapControl: true } }); });</script>
+                        <div id="google_map_5b28326912b7d" class="google_map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cmsmasters_row_5b28326912bd8" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+    <div class="cmsmasters_row_outer_parent">
+        <div class="cmsmasters_row_outer">
+            <div class="cmsmasters_row_inner">
+                <div class="cmsmasters_row_margin">
+                    <div class="cmsmasters_column two_third">
+                        <div class="cmsmasters_contact_form">
+                            <div class="cmsmasters-form-builder">
+                                <div class="cmsmasters_notice cmsmasters_notice_success cmsmasters_theme_icon_check success_box" style="display:none;">
+                                    <div class="notice_icon"></div>
+                                    <div class="notice_content">
+                                        <p>Thank You! <br />Your message has been sent successfully.</p>
+                                    </div>
+                                </div>
+                                <script type="text/javascript">
+                                    jQuery(document).ready(function () {
+                                        jQuery('#form_2870').validationEngine('attach', {
+                                            promptPosition: 'topRight',
+                                            scroll: false,
+                                            autoPositionUpdate: true,
+                                            showArrow: false
+                                        });
+                                        jQuery('#form_2870 a#cmsmasters_2870_formsend').click(function () {
+                                            jQuery('#form_2870 .loading').animate({ opacity: 1 }, 250);
+                                            if (jQuery('#form_2870').validationEngine('validate')) {
+                                                jQuery.post('../wp-content/plugins/cmsmasters-contact-form-builder/inc/form-builder-sendmail.html', {
+                                                    cmsmasters_name_3: jQuery('#cmsmasters_name_3').val(),
+                                                    cmsmasters_email_3: jQuery('#cmsmasters_email_3').val(),
+                                                    cmsmasters_phone_3: jQuery('#cmsmasters_phone_3').val(),
+                                                    cmsmasters_subject: jQuery('#cmsmasters_subject').val(),
+                                                    cmsmasters_message: jQuery('#cmsmasters_message').val(),
+                                                    contactemail: 'Mjg3MHwxMjN8Mjg3MA==',
+                                                    formname: '2870'
+                                                }, function (data) {
+                                                    jQuery('#form_2870 .loading').animate({ opacity: 0 }, 250);
+                                                    jQuery('#form_2870').fadeOut('slow');
+                                                    document.getElementById('form_2870').reset();
+                                                    jQuery('#form_2870').parent().find('.box').hide();
+                                                    jQuery('#form_2870').parent().find('.success_box').fadeIn('fast');
+                                                    jQuery('html, body').animate({ scrollTop: jQuery('#form_2870').offset().top - 140 }, 'slow');
+                                                    jQuery('#form_2870').parent().find('.success_box').delay(5000).fadeOut(1000, function () {
+                                                        jQuery('#form_2870').fadeIn('slow');
+                                                    });
+                                                });
+                                                return false;
+                                            } else {
+                                                jQuery('#form_2870 .loading').animate({ opacity: 0 }, 250);
+                                                return false;
+                                            }
+                                        });
+                                    });
+                                </script>
+                                <form action="#" method="post" id="form_2870">
+                                    <div class="form_info cmsmasters_input one_half">
+                                        <label for="cmsmasters_name_3">Name <span class="color_2">*</span></label>
+                                        <div class="form_field_wrap">
+                                            <input type="text" name="cmsmasters_name_3" id="cmsmasters_name_3" value="" size="35" class="validate[required]" />
+                                        </div>
+                                    </div>
+                                    <div class="form_info cmsmasters_input one_half">
+                                        <label for="cmsmasters_email_3">Email <span class="color_2">*</span></label>
+                                        <div class="form_field_wrap">
+                                            <input type="text" name="cmsmasters_email_3" id="cmsmasters_email_3" value="" size="35" class="validate[required]" />
+                                        </div>
+                                    </div>
+                                    <div class="form_info cmsmasters_input one_half">
+                                        <label for="cmsmasters_phone_3">Phone <span class="color_2">*</span></label>
+                                        <div class="form_field_wrap">
+                                            <input type="text" name="cmsmasters_phone_3" id="cmsmasters_phone_3" value="" size="35" class="validate[required]" />
+                                        </div>
+                                    </div>
+                                    <div class="form_info cmsmasters_input one_half">
+                                        <label for="cmsmasters_subject">Subject</label>
+                                        <div class="form_field_wrap">
+                                            <input type="text" name="cmsmasters_subject" id="cmsmasters_subject" value="" size="35" />
+                                        </div>
+                                    </div>
+                                    <div class="form_info cmsmasters_textarea one_first">
+                                        <label for="cmsmasters_message">Message <span class="color_2">*</span></label>
+                                        <div class="form_field_wrap">
+                                            <textarea name="cmsmasters_message" id="cmsmasters_message" cols="60" rows="10" class="validate[required]"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="cl"></div>
+                                    <div class="loading"></div>
+                                    <div class="form_info submit_wrap">
+                                        <a id="cmsmasters_2870_formsend" class="cmsmasters_button" href="#"><span>Send Message</span></a>
+                                    </div>
+                                    <div class="cl"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cmsmasters_column one_third">
+                        <div id="cmsmasters_heading_5b283269132f5" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                            <h3 class="cmsmasters_heading">Before Contacting Us</h3>
+                        </div><div class="cmsmasters_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Non equidem invideo, miror magis posuere velit aliquet.</p>
+                        </div>
+                        <div id="cmsmasters_heading_5b2832691335e" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                            <h3 class="cmsmasters_heading">Contact Information</h3>
+                        </div>
+                        <ul id="cmsmasters_icon_list_items_5b283269133a8" class="cmsmasters_icon_list_items cmsmasters_icon_list_type_list cmsmasters_icon_list_pos_left cmsmasters_color_type_border"><li id="cmsmasters_icon_list_item_5b28326913440" class="cmsmasters_icon_list_item cmsmasters-icon-direction-3">Brooklyn, NY 10036, United States </li><li id="cmsmasters_icon_list_item_5b28326913486" class="cmsmasters_icon_list_item cmsmasters-icon-phone-4">1-800-123-1234</li><li id="cmsmasters_icon_list_item_5b283269134ca" class="cmsmasters_icon_list_item cmsmasters-icon-envelope-letter">example@language-school.com</li></ul>
+                        <div id="cmsmasters_heading_5b28326913513" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                            <h3 class="cmsmasters_heading">Social Media</h3>
+                        </div><div class="cmsmasters_sharing">
+                            <div class="share_wrap">
+                                <a href="https://twitter.com/intent/tweet?text=Check+out+%27Contacts%27+on+Language+School+website&amp;url=http%3A%2F%2Flanguage-school.cmsmasters.net%2Fcontacts%2F" class="button cmsmasters-icon-twitter">Twitter</a>
+                            </div>
+                            <div class="share_wrap">
+                                <a href="https://plus.google.com/share?url=http%3A%2F%2Flanguage-school.cmsmasters.net%2Fcontacts%2F" class="button cmsmasters-icon-google">Google+</a>
+                            </div>
+                            <div class="share_wrap">
+                                <a href="https://www.facebook.com/sharer/sharer.php?display=popup&amp;u=http%3A%2F%2Flanguage-school.cmsmasters.net%2Fcontacts%2F" class="button cmsmasters-icon-facebook">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cl"></div><div class="content_wrap fullwidth">
+    <div class="middle_content entry" role="main"></div>
+</div>
+
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key=AIzaSyCW66n1eeLI-VD7hRxSXnsdq0-3PzhepEM' async defer></script>
+<script type='text/javascript' src='~/wp-content/themes/language-school/js/jquery.gMap.min55a0.js?ver=3.2.0'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var cmsmasters_ve_lang = { "required": "* This field is required", "select_option": "* Please select an option", "required_checkbox": "* This checkbox is required", "min": "* Minimum", "allowed": " characters allowed", "max": "* Maximum", "invalid_email": "* Invalid email address", "invalid_number": "* Invalid number", "invalid_url": "* Invalid URL", "numbers_spaces": "* Numbers and spaces only", "letters_spaces": "* Letters and spaces only" };
+    /* ]]> */
+</script>
+<script type='text/javascript' src='~/www.google.com/recaptcha/apida9b.js?onload=validateCaptcha&amp;ver=2.0.0'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var lpGlobalSettings = { "url": "http:\/\/language-school.cmsmasters.net\/contacts\/", "siteurl": "http:\/\/language-school.cmsmasters.net", "ajax": "http:\/\/language-school.cmsmasters.net\/wp-admin\/admin-ajax.php", "theme": "language-school" };
+    /* ]]> */
+</script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var lpCheckoutSettings = { "ajaxurl": "http:\/\/language-school.cmsmasters.net", "user_waiting_payment": null, "user_checkout": "", "i18n_processing": "Processing", "i18n_redirecting": "Redirecting", "i18n_invalid_field": "Invalid field", "i18n_unknown_error": "Unknown error", "i18n_place_order": "Place order" };
+    /* ]]> */
+</script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var lpProfileUserSettings = { "processing": "Processing", "redirecting": "Redirecting", "avatar_size": { "width": 150, "height": 150 } };
+    /* ]]> */
+</script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var lpCourseSettings = [];
+    /* ]]> */
+</script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var lpQuizSettings = [];
+/* ]]> */
+</script>
+
+<script type='text/javascript' src='~/wp-content/plugins/cmsmasters-contact-form-builder/js/jquery.validationEngine.min61da.js?ver=2.6.2'></script>
+
+<script type='text/javascript' src='~/wp-content/plugins/cmsmasters-contact-form-builder/js/jquery.validationEngine-lang2fca.js?ver=1.4.0'></script>

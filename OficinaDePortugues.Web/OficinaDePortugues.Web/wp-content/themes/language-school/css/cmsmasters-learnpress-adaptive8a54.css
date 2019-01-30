@@ -1,0 +1,79 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Language School
+ * @version 	1.0.7
+ * 
+ * Responsive LearnPress CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/*-------------------------------------------------------------------------
+
+	1.	Large Monitor
+	2.	Medium Monitor
+	3.	Tablet Monitor
+	4.	Tablet Monitor 950
+	5.	Small Tablet Monitor
+	6.	Phone Monitor
+
+-------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  .learn-press-courses li.course:nth-child(3n+1) {
+    margin-left: 2%;
+    clear: none;
+  }
+  .learn-press-courses li.course:nth-child(4n+1) {
+    clear: both;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post {
+    width: 50%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post:nth-child(2n+1) {
+    clear: both;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 50%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(5n+1) {
+    clear: none;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .learn-press-courses li.course {
+    width: 46%;
+  }
+  .learn-press-courses li.course:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .cmsmasters_learnpress_shortcode.cmsmasters_2 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_3 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 100%;
+    float: none;
+  }
+  .learn-press-courses {
+    margin: 0;
+  }
+  .learn-press-courses li.course {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .user-profile-edit-form .info-field {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+}
